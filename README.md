@@ -13,3 +13,6 @@ SLIKA SHEME:
 
 <img width="800" alt="SHEMA" src="https://user-images.githubusercontent.com/83816742/165067349-a6158bcc-8bac-4dca-940c-920133c57714.png">
 
+
+
+
