@@ -7,9 +7,9 @@ V restavraciji je jedilnica v drugem nadstropju kot kuhinja. Zato je vgrajeno dv
 
 SLIKA BREADBOARDA:
 
-<img width="1029" alt="BRD" src="https://user-images.githubusercontent.com/83816742/165065481-2d10d512-d01e-4735-96c7-7cc3759c0878.png">
+<img width="800" alt="BRD" src="https://user-images.githubusercontent.com/83816742/165065481-2d10d512-d01e-4735-96c7-7cc3759c0878.png">
 
 SLIKA SHEME:
 
-<img width="978" alt="SHEMA" src="https://user-images.githubusercontent.com/83816742/165067349-a6158bcc-8bac-4dca-940c-920133c57714.png">
+<img width="800" alt="SHEMA" src="https://user-images.githubusercontent.com/83816742/165067349-a6158bcc-8bac-4dca-940c-920133c57714.png">
 
