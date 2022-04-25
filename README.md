@@ -7,3 +7,4 @@ V restavraciji je jedilnica v drugem nadstropju kot kuhinja. Zato je vgrajeno dv
 
 BREADBOARD SLIKA:
 
+<img width="1029" alt="BRD" src="https://user-images.githubusercontent.com/83816742/165065481-2d10d512-d01e-4735-96c7-7cc3759c0878.png">
