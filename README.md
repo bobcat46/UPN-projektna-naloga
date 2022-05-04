@@ -31,7 +31,7 @@ SLIKA SHEME:
 | A               | X0              | N.C.            | Gumb 1 za dvigalo gor                          |
 | B               | X1              | N.C.            | Gumb 2 za dvigalo dol                          |
 | C               | X2              | N.C.            | Gumb 3, ko dvigalo doseže zgornje nadstropje   |
-| R               | X3              | N.C.            | Gumb 4, ko dvigalo doseže spodnje nadstropje   |
+| D               | X3              | N.C.            | Gumb 4, ko dvigalo doseže spodnje nadstropje   |
 
 
 ### IZHODI
