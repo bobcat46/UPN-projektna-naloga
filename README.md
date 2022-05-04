@@ -27,20 +27,20 @@ SLIKA SHEME:
 
 ### VHODI
 | **Oznaka v načrtu** | **Naslov operanda** | **Vrsta kontaknta** | **Pomen**                          |
-|-----------------|-----------------|-----------------|--------------------------------|
-| A               | X0              | N.C.            | Gumb za igralca 1.             |
-| B               | X1              | N.C.            | Gumb za igralca 2.             |
-| C               | X2              | N.C.            | Gumb za igralca 3.             |
-| R               | X3              | N.C.            | Gumb za resetiranje kviza.     |
-| TRIMER          |                 |                 | Nastavljanje kontrasta za LCD. |
+|-----------------|-----------------|-----------------|------------------------------------------------| 
+| A               | X0              | N.C.            | Gumb 1 za dvigalo gor                          |
+| B               | X1              | N.C.            | Gumb 2 za dvigalo dol                          |
+| C               | X2              | N.C.            | Gumb 3 ko dvigalo doseže zgornje nadstropje    |
+| R               | X3              | N.C.            | Gumb 4 ko dvigalo doseže spodnje nadstropje    |
+
 
 ### IZHODI
 | **Oznaka v načrtu** | **Naslov operanda** | **Aktiven pri** | **Pomen**                                                        |
 |---------------------|---------------------|-----------------|------------------------------------------------------------------|
-| LED1                | Y0                  | 1               | Prižgana zelena led dioda, če noben gumb ni bil pritisjen.       |
-| LED2                | Y1                  | 1               | Prižgana rumena led dioda, če sta pritisnjena ena ali dva gumba. |
-| LED3                | Y2                  | 1               | Utripa rdeča led dioda, če so vsi gumbi bili pritisjeni          |
-| LCD                 |                     |                 | Prikaz vrstnega reda igralcev, ter zmagovalca.                   |
+| LED1                | Y0                  | 1               | Se sveti ko je dvigalo v gibanju.                                |
+| LED2                | Y1                  | 1               | Se sveti ko gre dvigalo gor.                                     |
+| LED3                | Y2                  | 1               | Se sveti ko gre dvigalo dol.                                     |
+
 
  
  
