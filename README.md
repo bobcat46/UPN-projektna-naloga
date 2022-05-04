@@ -3,6 +3,10 @@
 
 V restavraciji je jedilnica v drugem nadstropju kot kuhinja. Zato je vgrajeno dvigalo (vrtenje motorja naprej/nazaj preko tranzistorja) za tovorjenje hrane. Za pomik gor (vrtenje motorja v eno smer) je potrebno držati tipko GOR. Dviganje se konča, ko doseže dvigalo zgornji položaj, kar zazna senzor Kzg. Pomik dol poteka, če držimo tipko DOL. Ko dvigalo doseže spodnji položaj (senzor Ksp)  se spuščanje ustavi. Hkratni pritisk obeh tipk naj krmilje ignorira. Če je dvigalo v gibanju, to signalizira rdeča LED. Senzorje
 
+## AVTOR:
+Luka Košir 3.c <br />
+Tilen Šuštar 3.c
+
 ## BREADBOARD IN SHEMA
 
 SLIKA BREADBOARDA:
@@ -13,6 +17,15 @@ SLIKA SHEME:
 
 <img width="800" alt="SHEMA" src="https://user-images.githubusercontent.com/83816742/165067349-a6158bcc-8bac-4dca-940c-920133c57714.png">
 
+## SLIKA VEZAVE:
 
+![SLIKA ](https://user-images.githubusercontent.com/83816742/166651538-1cbbf395-715b-498a-bb1b-7edbe52ac66a.png)
 
+## KODA:
+
+## VIDEO:
+
+### KOMENTAR:
+
+Projektna naloga, ki sva jo naredila ni bila pretežka. Lahko bi izboljšala, da bi dodala motorček ampak ni bilo mogoče, ker nisva imela pravih komponent za izdelavo. Kodo bi lahko morda tudi še izboljšala tako, da bi jo skrajšala. Nalogo bi lahko izboljšala z senzorjem za zaznavanje višine dvigala.
 
