@@ -41,14 +41,9 @@ SLIKA SHEME:
 | LED2                | Y1                  | 1               | Se sveti, ko gre dvigalo gor.                                    |
 | LED3                | Y2                  | 1               | Se sveti, ko gre dvigalo dol.                                    |
 
-
- 
- 
-### KODA:
-
-
 ### VIDEO:
 
+https://user-images.githubusercontent.com/83816742/169011393-05111e91-9bb8-4c73-8035-8fcabf056920.mov
 
 ### KOMENTAR:
 Projektna naloga, ki sva jo naredila ni bila pretežka. Lahko bi izboljšala, da bi dodala motorček ampak ni bilo mogoče, ker nisva imela pravih komponent za izdelavo. Kodo bi lahko morda tudi še izboljšala tako, da bi jo skrajšala. Nalogo bi lahko izboljšala z senzorjem za zaznavanje višine dvigala.
