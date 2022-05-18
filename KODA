@@ -1,1 +1,75 @@
+//To so led diode
+int LEDM = 5; // Modra lučka za dol
+int LEDZ = 6; // Zelena lučka je za gor
+int LEDR = 7; // Rdeča je za dvigalo v gibanju
+//To so tipke
+int TIPKA1 = 9;  // Ta je za dvigalo gor
+int TIPKA2 = 10; // Ta je za dvigalo dol
+int TIPKA3 = 11; // Ta je za dvigalo ko doseže zgorni položaj
+int TIPKA4 = 12; // Ta je za dvigalo ko doseže spodnji položaj
+int low = 0;
+int high = 10000;
+int counter = 5000;
+String stanje = "Ustavljen";
 
+void setup() {
+// Tukaj so led diode
+  pinMode(LEDM, OUTPUT);
+  pinMode(LEDZ, OUTPUT);
+  pinMode(LEDR, OUTPUT);
+// Tukaj so tipke
+  pinMode(TIPKA1, INPUT);
+  pinMode(TIPKA2, INPUT);
+  pinMode(TIPKA3, INPUT);
+  pinMode(TIPKA4, INPUT);
+  Serial.begin(9600);
+}
+
+
+void loop() {
+  if(digitalRead(TIPKA1)==HIGH){
+    stanje="Dviga";
+  }
+  if(digitalRead(TIPKA2)==HIGH){
+    stanje="Pada";
+  }
+  if(digitalRead(TIPKA3)==HIGH){
+    stanje="Ustavljen";
+  }
+  if(digitalRead(TIPKA4)==HIGH){
+    if(stanje=="Dviga"){
+      stanje="Ustavljen";
+      high=counter;
+    }
+    else if(stanje=="Pada"){
+      stanje="Ustavljen";
+      low=counter;
+    }
+  }
+  
+  digitalWrite(LEDM,LOW);
+  digitalWrite(LEDZ,LOW);
+ 
+  if(stanje=="Dviga"){
+    if(counter<high){
+        digitalWrite(LEDZ,HIGH);
+        counter++;
+    }
+  }
+  else if(stanje=="Pada"){
+    if(counter>low){
+        digitalWrite(LEDM,HIGH);
+        counter--;
+    }
+  }
+  if(counter>=high){
+    stanje="Ustavljen";
+    digitalWrite(LEDR,HIGH);
+  }
+  if(counter<=low){
+    stanje="Ustavljen";
+    digitalWrite(LEDR,HIGH);
+  }
+  Serial.print(stanje+" "+low+" "+high+" "+counter+"    ");
+  delay(1000);
+}
